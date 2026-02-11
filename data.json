@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Anees",
+    "role": "Deveopler",
+    "phone": "3453445555",
+    "add": "Xyz colony "
+  },
+  {
+    "name": "Anis",
+    "role": "plumber",
+    "phone": "3453445555",
+    "add": "Xyz11 colony "
+  },
+  {
+    "name": "Raees",
+    "role": "Devops",
+    "phone": "3453445555",
+    "add": "Xyz colony , Auramgabad "
+  },
+  {
+    "name": "Anajli",
+    "role": "Coder",
+    "phone": "34531445555",
+    "add": "Xyz abcd colony "
+  },
+  {
+    "name": "Majed",
+    "role": "Deveopler",
+    "phone": "3453445555",
+    "add": "Xyz rahat colony "
+  },
+  {
+    "name": "Shenaz",
+    "role": "Coder",
+    "phone": "34531445555",
+    "add": "Xyz abcd colony "
+  }
+]
