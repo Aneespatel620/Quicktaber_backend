@@ -6,7 +6,9 @@ const app = express();
 // yè cors zarorri hai werna fronted per ye login kuch bhi work nahi kerte .
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
+    origin:
+      "https://quicktaberfronted2-7y75qrsxc-patel-anees-projects.vercel.app/ ",
     credentials: true,
   })
 );
