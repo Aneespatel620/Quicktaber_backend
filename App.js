@@ -4,14 +4,35 @@ const cors = require("cors");
 
 const app = express();
 // yè cors zarorri hai werna fronted per ye login kuch bhi work nahi kerte .
+// app.use(
+//   cors({
+//     // origin: "http://localhost:5173",
+//     origin:
+//       "https://quicktaberfronted2-7y75qrsxc-patel-anees-projects.vercel.app/",
+//     credentials: true,
+//   })
+// ); be fore deploèe
+// ye neeche ke bhi sab allow kerta per abhi nahi horà
+// app.use(
+//   cors({
+//     origin: true,
+//     credentials: true,
+//   })
+// );
 app.use(
   cors({
-    // origin: "http://localhost:5173",
-    origin:
-      "https://quicktaberfronted2-7y75qrsxc-patel-anees-projects.vercel.app/ ",
+    origin: [
+      "https://quicktaberfronted33.vercel.app",
+      "https://quicktaberfronted33-git-main-patel-anees-projects.vercel.app",
+    ],
     credentials: true,
   })
 );
+
+app.options("*", cors());
+
+app.use(express.json());
+
 app.use(express.json());
 const Router = require("./Router");
 const ConnectDB = require("./db");
