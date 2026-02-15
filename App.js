@@ -29,10 +29,6 @@ app.use(
   })
 );
 
-app.options("*", cors());
-
-app.use(express.json());
-
 app.use(express.json());
 const Router = require("./Router");
 const ConnectDB = require("./db");
