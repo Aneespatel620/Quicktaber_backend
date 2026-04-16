@@ -69,6 +69,8 @@ npm start
 👉  BACKEND_DEPLOYMENT_LINK  :  https://github.com/Aneespatel620/Quicktaber_backend.git 
 
      Fronted Link : https://quicktaberfronted33-git-main-patel-anees-projects.vercel.app/ 
+
+     Fronted Repo Link : https://github.com/Aneespatel620/quicktaber_fronted3.git
      
 
 ⚠️ Note
