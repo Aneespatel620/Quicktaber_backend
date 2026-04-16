@@ -92,4 +92,6 @@ JWT_SECRET=
  👨‍💻 Author
 
 <b> Patel Anees Ahmed Sayeed Kha </b>
+Linkdin : Patel Anees Ahmed 
+Link : https://www.linkedin.com/in/patel-anees-ahmed-aa819b2b5/
 
