@@ -15,7 +15,7 @@ The Quick Taber backend provides REST APIs for handling user authentication and 
 
 ---
 
-## 🧠 Functionality
+ 🧠 Functionality
 
 * Each user's data is stored separately
 * After login, users can access their personal shortcuts
@@ -23,7 +23,7 @@ The Quick Taber backend provides REST APIs for handling user authentication and 
 
 ---
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
 * Node.js
 * Express.js
@@ -32,27 +32,27 @@ The Quick Taber backend provides REST APIs for handling user authentication and 
 
 ---
 
-## 📦 API Endpoints
+ 📦 API Endpoints
 
-### Auth
+ Auth
 
 * POST /signup
 * POST /login
 
-### Shortcuts
+Shortcuts
 
 * GET /shortcuts
 * POST /shortcuts
 * PUT /shortcuts/:id
 * DELETE /shortcuts/:id
 
-### Explore
+ Explore
 
 * GET /explore
 
 ---
 
-## 📦 Installation
+ 📦 Installation
 
 ```bash
 git clone YOUR_BACKEND_REPO_LINK
@@ -63,12 +63,13 @@ npm start
 
 ---
 
-## 🌐 Deployment
+ 🌐 Deployment
 
 🔗 Live API:
-👉 <b> BACKEND_DEPLOYMENT_LINK  : https://github.com/Aneespatel620/Quicktaber_backend.git </b>
-    <b> Fronted Link : https://quicktaberfronted33-git-main-patel-anees-projects.vercel.app/ </b>
----
+👉  BACKEND_DEPLOYMENT_LINK  :  https://github.com/Aneespatel620/Quicktaber_backend.git 
+
+     Fronted Link : https://quicktaberfronted33-git-main-patel-anees-projects.vercel.app/ 
+     
 
 ⚠️ Note
 
@@ -80,7 +81,7 @@ npm start
 
 ---
 
- 🔐 Environment Variables
+🔐 Environment Variables
 
 ```env
 PORT=
@@ -91,4 +92,4 @@ JWT_SECRET=
  👨‍💻 Author
 
 <b> Patel Anees Ahmed Sayeed Kha </b>
-Your Name
+
